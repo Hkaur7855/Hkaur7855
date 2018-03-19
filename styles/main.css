@@ -1,0 +1,59 @@
+body  { font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+#pumpkin{ float: left;
+      padding: 1.5em; }
+
+a {font-weight: bold;}
+
+a:link, a:visited { color: orange; }
+
+a:hover, a:focus { color: green;}
+
+header{ padding: 0.5em;}
+header :img { float:left; }
+
+ h1 {   font-size: 140%;
+	text-align: justify;
+        padding-botttom: 0em;}
+
+h1:first-letter { font-size: 240%;}
+
+
+h2 {    font-size: 175%; }
+
+h3 {    font-size: 125%;}
+
+footer p {font-size: 90%;
+	  text-align: center;}
+
+aside{  float: left;
+        width:160px;
+	text-align: auto;
+	line-height: 1.5em;}
+
+body{   align: center;
+        width: 800px;
+        background-color: white;
+        border: 3px solid black;
+        box-shadow: 5px 5px 5px 0;
+        margin: 5px auto;}
+
+html{	background-color: white;
+        background-image:url(bats.gif);
+        background-repeat: repeat;
+        background-position: relative;}
+
+section{float:right;
+	width:640px;
+	padding-bottom: 1.5em;}
+
+header {padding: .25em .5em 0;
+        border-bottom: 3px solid black;
+        background-image: linear-gradient(45deg, white 0%, orange 33%, orange 66%, black 100%)}
+
+footer {padding: .5em;
+        background-image: linear-gradient(45deg, black 0%, orange 33%, orange 66%, white 100%);
+        margin-bottom: 0;
+	border-top: 3px solid black;
+	padding-top: .5em;
+        clear: both;}
